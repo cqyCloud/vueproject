@@ -1,13 +1,6 @@
 const banner = require("../contentTemplate/banner")
 const newList = require('../contentTemplate/newsList')
-/* let id,num;
-banner.forEach((e,i) => {
-  // console.log(i)//序号
-  // console.log(e)//内容
-  // id = item
-  // num=index
-});
-// console.log(id,num) */
+// const 
 exports.index = async ctx => {
   let data;
   if(ctx.querystring === "title=vueTitle"){
