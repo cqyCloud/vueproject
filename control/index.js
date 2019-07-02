@@ -2,6 +2,10 @@ const banner = require("../contentTemplate/banner")
 const newList = require('../contentTemplate/newsList')
 const details = require('../contentTemplate/bannerdetails')
 const newsdetails = require('../contentTemplate/newsdetails')
+const shareNav = require('../contentTemplate/shareNav')
+const womenStar = require('../contentTemplate/womanStar')
+const manStar = require('../contentTemplate/manStar')
+const fullView = require('../contentTemplate/fullView')
 // console.log(banner)
 // console.log(details)
 // console.log({detail,id})
@@ -31,13 +35,13 @@ exports.index = async ctx => {
   }else if(ctx.querystring === "title=newsList"+4){
     data = newsdetails[3]
   }else if(ctx.querystring === "title=shareNav"){
-    data = "步惊云"
+    data = shareNav
   }else if(ctx.querystring === "title=womanStar"){
-    data = "步惊云"
+    data = womenStar
   }else if(ctx.querystring === "title=manStar"){
-    data = "步惊云"
+    data = manStar
   }else if(ctx.querystring === "title=fullView"){
-    data = "步惊云"
+    data = fullView
   }else if(ctx.querystring === "title = title + id"){
     data = "步惊云"
   }else if(ctx.querystring === "title=likeYou"){
