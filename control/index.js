@@ -6,10 +6,9 @@ const shareNav = require('../contentTemplate/shareNav')
 const womenStar = require('../contentTemplate/womanStar')
 const manStar = require('../contentTemplate/manStar')
 const fullView = require('../contentTemplate/fullView')
-// console.log(banner)
-// console.log(details)
-// console.log({detail,id})
-// const 
+const likeYou = require('../contentTemplate/likeYou')
+const likeYoudetail = require('../contentTemplate/likeYoudetails')
+
 exports.index = async ctx => {
   let data;
   if(ctx.querystring === "title=vueTitle"){
@@ -45,15 +44,11 @@ exports.index = async ctx => {
   }else if(ctx.querystring === "title = title + id"){
     data = "步惊云"
   }else if(ctx.querystring === "title=likeYou"){
-    data = "步惊云"
-  }else if(ctx.querystring === "title=title + index"){
-    data = "步惊云"
+    data = likeYou
+  }else if(ctx.querystring === "title=title" + 1){
+    data = likeYoudetail
   }
 
 
   ctx.body = data
-}
-
-exports.banner = async ctx => {
-
 }
