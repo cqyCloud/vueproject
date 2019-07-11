@@ -1,0 +1,61 @@
+let arr = []
+
+let data = [
+  [
+    {
+      picUrl:"http://localhost:3000/image/womanStar/1.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/2.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/3.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/4.png"
+    }
+  ],
+  [
+    {
+      picUrl:"http://localhost:3000/image/womanStar/1.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/2.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/3.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/4.png"
+    }
+  ],
+  [
+    {
+      picUrl:"http://localhost:3000/image/womanStar/1.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/2.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/3.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/4.png"
+    }
+  ],
+  [
+    {
+      picUrl:"http://localhost:3000/image/womanStar/1.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/2.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/3.png"
+    },
+    {
+      picUrl:"http://localhost:3000/image/womanStar/4.png"
+    }
+  ]
+]
+module.exports = data

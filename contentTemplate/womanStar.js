@@ -20,7 +20,7 @@ let data = [
   },
   {
     id: "4",
-    picUrl: "http://localhost:3000t/image/womanStar/4.png",
+    picUrl: "http://localhost:3000/image/womanStar/4.png",
     title: "杨幂，1986年9月12日出生于北京市，中国内地影视女演员、流行乐歌手、影视制片人。",
     tip: "womanStar"
   },

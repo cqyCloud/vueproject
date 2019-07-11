@@ -20,7 +20,7 @@ let data = [
   },
   {
     id: "4",
-    picUrl: "http://localhost:3000t/image/manStar/4.jpg",
+    picUrl: "http://localhost:3000/image/manStar/4.jpg",
     title: "陈赫，1985年11月9日出生于福建省福州市长乐区，毕业于上海戏剧学院表演系，上海话剧艺术中心演员，中国内地男演员、歌手、主持人。",
     tip: "manStar"
   },
